@@ -13,14 +13,12 @@ let firstName = "Carlos";
 let lastName = "Stevenson";
 let thisYear = 1965;
 let birthYear = 1947;
+// fullName` and `age
+let fullName = firstName + " " + lastName;
+let age = thisYear - birthYear;
+
 const greeting =
-  "Hello! My name is " +
-  firstName +
-  " " +
-  lastName +
-  "and I am " +
-  (thisYear - birthYear) +
-  "years old.";
+  "Hello! My name is " + fullName + " and I am " + age + " years old.";
 console.log(greeting);
 
 // Do not change this
